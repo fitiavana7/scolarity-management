@@ -1,0 +1,32 @@
+.ajouter {
+  padding: 100px 12% 0;
+}
+@media screen and (max-width: 700px) {
+  .ajouter {
+    padding: 100px 20px 0;
+  }
+}
+.ajouter form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 301px));
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.ajouter form .form-radio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 8px;
+}
+.ajouter form .form-radio .radio-item {
+  color: white;
+}
+.ajouter form .form-radio .radio-item input {
+  margin-right: 4px;
+}
+.ajouter form .form-radio, .ajouter form .form-item {
+  background: silver;
+  padding: 8px;
+  border-radius: 10px;
+}

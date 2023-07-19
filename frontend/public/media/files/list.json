@@ -1,0 +1,47 @@
+[
+    {
+        "id" : 1 ,
+        "nom" : "andriaherilanto" , 
+        "prenom" : "Aina Fitiavana" , 
+        "mention" : "DA2I" , 
+        "niveau" : "L1" , 
+        "montant" : "505000" , 
+        "cin" : "110011025091"
+    } , 
+    {
+        "id" : 2 ,
+        "nom" : "Cristiano" , 
+        "prenom" : "Ronaldo" , 
+        "mention" : "DA2I" , 
+        "niveau" : "L2" ,
+        "montant" : "505000" ,
+        "cin" : "210011025091"
+    } , 
+    {
+        "id" : 3 ,
+        "nom" : "Carlos" , 
+        "prenom" : "Casemiro" , 
+        "mention" : "AES" , 
+        "niveau" : "M2",
+        "montant" : "125000", 
+        "cin" : "110011025056"
+    } , 
+    {
+        "id" : 4 ,
+        "nom" : "Tom" , 
+        "prenom" : "Holland" , 
+        "mention" : "RPM" , 
+        "niveau" : "L3" ,
+        "montant" : "300000" , 
+        "cin" : "110011025092"
+    } ,
+    {
+        "id" : 5 ,
+        "nom" : "Harry" , 
+        "prenom" : "Maguire" , 
+        "mention" : "RPM" , 
+        "niveau" : "L1" ,
+        "montant" : "505000" , 
+        "cin" : "110011025092"
+    }
+] 

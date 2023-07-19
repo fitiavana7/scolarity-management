@@ -1,0 +1,118 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/pics/batiment.jpeg) no-repeat;
+    background-size: cover;
+    .login-message{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 10px 25px;
+        background: white;
+        border-bottom: 2px solid $color;
+        border-radius: 10px;
+        animation: mess-anim 1500ms;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        h4,h3{
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .login-box{
+        width: 500px;
+        background: #acabab4a;
+        border-radius: 20px;
+        padding: 40px 0;
+        .login-header{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 100px;
+            }
+        }
+        .login-title{
+            padding: 10px 0;
+            h2{
+                text-align: center;
+                color: whitesmoke;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+        }
+        .login-form{
+            form{
+                padding: 20px 12%;
+                .input-box{
+                    display: flex;
+                    align-items: center;
+                    margin: 10px 0;
+                    position: relative;
+                    i{
+                        font-size: 25px;
+                        color: whitesmoke;
+                        width: 34px;
+                        height: 36px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-bottom: 2px solid whitesmoke;
+                    }
+                    .showMdp{
+                        width: 34px;
+                        height: 36px;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        border: none;
+                        font-size: 20px;
+                    }
+                    .form-control{
+                        color: whitesmoke;
+                        background: transparent;
+                        border: none;
+                        border-bottom: 2px solid whitesmoke;
+                        border-radius: 0;
+                        &:focus{
+                            box-shadow: none;
+                        }
+                    }
+                    .form-control::placeholder{
+                        color: #d3f6fa;
+                        font-style: italic;
+                    }
+                }
+                .boutton-box{
+                    display: flex;
+                    justify-content: end;
+                    padding: 20px 0;
+                }
+                .creer-box{
+                    display: flex;
+                    justify-content: center;
+                    a{
+                        color: #d3f6fa;
+                        &:hover{
+                            color: white;
+                            text-shadow: 1px 1px white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes mess-anim {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

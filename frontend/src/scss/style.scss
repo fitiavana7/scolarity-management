@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+$color : #4C83FF ;
+$button : #009dff ;
+@font-face{
+    font-family:"special-font";
+    src : './Lato-Regular.ttf' ;
+}
+body{
+    background: whitesmoke;
+}
+.mon-boutton{
+    padding: 10px 20px;
+    border-radius: 15px ;
+    font-weight: bold;
+    background: $button;
+    border: none;
+    &:hover{
+        background: white;
+        border-color: $button ; 
+        color: $button ;
+        transition: 1s;
+    }
+}
+.mon-boutton2{
+    padding: 10px 20px;
+    border-radius: 15px ;
+    font-weight: bold;
+    background: white;
+    color: $button;
+    border: none;
+    &:hover{
+        background: $button;
+        border-color: white ; 
+        color: white ;
+        transition: 1s;
+    }
+}
+.mon-input{
+    border-bottom: 4px solid $button ;
+    color: $color ; 
+    &:focus{
+        box-shadow: 0 0 0 white ;
+        transform: scale(1.02);
+        transition: 1s ;
+        color: $color;
+    }
+}
+
+@import './header.scss' ;
+@import './landing.scss' ;
+@import './list.scss' ;
+@import './footer.scss' ;
+@import './ajouter.scss' ;
+@import './login.scss' ;
+@import './notfound.scss';

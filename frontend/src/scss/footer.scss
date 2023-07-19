@@ -1,0 +1,41 @@
+.footer{
+    padding: 10px 12%;
+    background: $color;
+    margin-top: 50px;
+    @media screen and (max-width:700px) {
+        padding: 10px 20px;
+    }
+    .footer-link{
+        display: flex;
+        justify-content: center;
+        a{
+            margin: 0 7px;
+            i{
+                width: 45px;
+                height: 45px;
+                background: white;
+                border-radius: 100%;
+                color: $color;
+                font-size: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            &:hover{
+                text-decoration: none;
+                i{
+                    transform: scale(1.04);
+                    box-shadow: 2px 2px 16px white;
+                }
+            }
+        }
+    }
+    .footer-droit{
+        margin-top: 10px;
+        p{
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}

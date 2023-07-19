@@ -1,0 +1,66 @@
+.landing{
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/pics/batiment.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12% ;
+    @media screen and (max-width:700px) {
+        padding: 0 20px;
+    }
+    .landing-content{
+        h1{
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px black;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            b{
+                color: white;
+                font-size: 50px;
+            }
+        }
+        p{
+            margin-top: 20px;
+            color: white;
+            padding: 0 20px;
+            text-align: justify;
+            @media screen and (max-width:600px) {
+                display: none;
+            }
+        }
+        .button-container{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .link{
+        position: absolute;
+        bottom: 15px ;
+        right: 15px;
+        a{
+            i{
+                color: white;
+                margin-top: 8px;
+                width: 40px;
+                height: 40px;
+                background: #009dff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 100%;
+            }
+            &:hover{
+                text-decoration: none;
+                i{
+                    color: $button;
+                    background: white;
+                    border: 1px solid $button;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+}

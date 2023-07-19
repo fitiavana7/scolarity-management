@@ -1,0 +1,30 @@
+.not-found{
+    width: 100vw;
+    height: 100vh;
+    background: $color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .url{
+        background: whitesmoke;
+        border-radius: 8px;
+        box-shadow: 2px 2px 8px white , -2px -2px 8px white;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: whitesmoke;
+        margin: 20px;
+    }
+    .not-found-btn{
+        display: flex;
+        justify-content: center;
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+}
